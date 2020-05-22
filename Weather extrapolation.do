@@ -3,10 +3,10 @@
 ********************************************************************************
 
 /*
-Build dataset from weather stations in XXX steps:
+Build dataset from weather stations in 3 steps:
 1. Clean and select variables from observations at station level
 2. Collapse temp data and take monthly average per year
-3. *3. Flag, remove repeated observations and exports data into .csv file
+3. Flag, remove repeated observations and exports data into .csv file
 */
 
 ********************************************************************************
