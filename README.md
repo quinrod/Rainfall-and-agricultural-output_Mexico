@@ -2,7 +2,7 @@
 Weather extrapolation and OLS
 
 ### Findings
-- Difference-in-difference estimates find that workers who enroll in the courses demanded by their employers increase their job tenure by 8.89 months compared to non-enrolled nominees. 
+- In 2010 Mexico suffered one of the most severe droughts on record. 
 - However, those who complete the training stay in the job 3.36 months less, on average, than those who do not. 
 - At firm level, results show that having a course approved is associated with higher turnover in the short run when considering subgroups of workers who participate in Pronatec-MDIC. The effect dissipates in the third year.
 
@@ -11,20 +11,19 @@ Weather extrapolation and OLS
 - Ultimately , this supply - driven programs spent BRL 2.4 billion annually in  2015 17 while  demand - driven  programs  can  be  more cost-effective,  specially  in times of fiscal consolidation. 
 
 ### Methodology 
-Weather extrapolation
-- Firms: Match  the  probability  of  course  approval  of  firms that demand and obtain training confirmation with firms of similar characteristics that demand but do not obtain confirmation. The matching is built on a logit model that captures the likelihood of course approval based on its pre-treatment features.
-- Workers: Match the probability of program enrollment of workers enrolled in cours es in 2015 - 16  demanded  by  the  same  firm  that  employs  them  with  that  of  workers  with  similar characteristics  who  do  not  enroll  but  are  employed in  the  same  firm.
-
-Ordinary Least Squares (OLS)
-- Firms: To estimate the difference in labor turnover of firms which experience the treatment and those not exposed to it, deduct turnover during the period after course approval from the turnover before.
-- Workers: To assess the difference in outcomes for workers who enroll or graduate and those who do not, deduct job tenure during the period after course approval from the job tenure before.
+![Methodology 1](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/figures/Methodology1.png)
+![Methodology 2](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/figures/Methodology2.png)
 
 ### Data
-Clean and merge large datasets from technical education and labor registry:
+Clean and merge datasets from weather stations and agricultural activity to weather insurance payouts and subsidies:
 
-00. prog_cpf_pis_cnpj-v2.do -> Defining function to validate codes 		
-01. Functions.do -> Auxiliar function to simplify the code
-02. Bases de ajuste-CNPJ_Municipio_curso.do -> Data to correct lack of variable
+`Weather station info`: Daily temperature and rainfall daily between 2000 and 2013 from several georeferenced weather stations.
+
+`Agricultural activity`: Hectares of agricultural cultivation and production by municipality and crop on a monthly basis between 2002 and 2013.
+
+`Weather insurance payouts`: Payout disbursed to farmers by state and federal governments by municipality and crop between 2003 and 2014.
+
+`Agricultural subsidies`: Direct support from the state to farmers between 2000 and 2014.
 
 ### Visualization
 
