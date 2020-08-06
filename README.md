@@ -28,4 +28,14 @@ Clean and merge large datasets from technical education and labor registry:
 
 ### Visualization
 
+## Interpolation
 ![Interpolation](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/maps/Weather%20interpolated%20for%20June%202010%20in%20Mexico.png)
+
+## Yield of maize production pre-drought
+
+![Pre-drought](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/maps/maiz_yield_2010_pre_drought.png)
+
+## Yield of maize production post-drought
+
+![Post-drought](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/maps/maiz_yield_2011_post_drought.png)
+
