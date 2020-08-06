@@ -1,23 +1,27 @@
 # Rainfall-and-agricultural-output_Mexico
 Weather extrapolation and OLS
 
+In 2010 Mexico suffered one of the most severe droughts on record. The government of Mexico wants to determine whether index insurance contracts (Agrosemex) embed well-defined payout triggers to idemnify farmkers for output losses. 
+
 ## Findings
-- In 2010 Mexico suffered one of the most severe droughts on record. 
-- However, those who complete the training stay in the job 3.36 months less, on average, than those who do not. 
-- At firm level, results show that having a course approved is associated with higher turnover in the short run when considering subgroups of workers who participate in Pronatec-MDIC. The effect dissipates in the third year.
+- There is little overlap between the triggers of Agrosemex payout and the measured dispersion of rainfall data around the mean at the national level for each of the stages in the crop cycle.
+- The lack of overlap could be the result of changes in weather patterns since the definition of these triggers was made in 2008, or due to the localized data gathering practiced in the past.
 
 ## Suggestions
-- The fact that only one Ministry employs this demand - driven design out of 21 eligible Ministries provides  an  opportunity  to  switch  to  a  demand - driven  training  model  to improve  labor productivity in the long run 16 , a phenomenon that may be holding back the labor productivity potential of firms in the country. 
-- Ultimately , this supply - driven programs spent BRL 2.4 billion annually in  2015 17 while  demand - driven  programs  can  be  more cost-effective,  specially  in times of fiscal consolidation. 
+- Define the payout thresholds for weather index insurance based on the deviations from the 10 year historical mean rainfall in a given municipality.
+- Modify the definition of Agroasemex upper and lower payout thresholds across the country as these may not be well-defined given the lack of overlap between triggers and dispersion.
+- Examine the triggers on a state-by-state or municipality-by-municipality level to understand the lack of overlap.
 
 ## Methodology 
+
+### OLS
 ![Methodology 1](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/figures/Methodology1.png)
 ![Methodology 2](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/figures/Methodology2.png)
 
 ## Data
 Clean and merge datasets from weather stations and agricultural activity to weather insurance payouts and subsidies:
 
-`Weather station info`: Daily temperature and rainfall daily between 2000 and 2013 from several georeferenced weather stations.
+`Weather station info`: Daily temperature and rainfall daily between 2000 and 2013 from 13,000 georeferenced weather stations.
 
 `Agricultural activity`: Hectares of agricultural cultivation and production by municipality and crop on a monthly basis between 2002 and 2013.
 
