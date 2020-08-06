@@ -28,6 +28,4 @@ Clean and merge large datasets from technical education and labor registry:
 
 ### Visualization
 
-![Extrapolation](https://quinrod.github.io/Rainfall-and-agricultural-output_Mexico/Weather%20interpolated%20for%20June%202010%20in%20Mexico.pdf)
-
-<embed src="https://quinrod.github.io/Rainfall-and-agricultural-output_Mexico/Weather%20interpolated%20for%20June%202010%20in%20Mexico.pdf" type="application/pdf" />
+![Interpolation](https://github.com/quinrod/Rainfall-and-agricultural-output_Mexico/blob/master/maps/Weather%20interpolated%20for%20June%202010%20in%20Mexico.png)
